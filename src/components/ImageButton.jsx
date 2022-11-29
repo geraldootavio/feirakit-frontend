@@ -16,7 +16,7 @@ export default function ImageButton({urlImage}) {
       [
         {
           text: "Ok",
-          onPress: () => console.log("Ação selecionada: SIM"),
+          onPress: () =>  console.log("Ação selecionada: SIM"),
         },
       ]
     );

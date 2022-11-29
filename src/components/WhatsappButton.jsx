@@ -15,7 +15,8 @@ export function WhatsappButton() {
       <TouchableOpacity
         style={styles.btnContainer}
         onPress={() =>
-          Linking.canOpenURL("whatsapp://send?text=oi?").then((supported) => {
+          Linking.canOpenURL("whatsapp://send?text=oi?").then
+          ((supported) => {
             if (supported) {
               return Linking.openURL(
                 "whatsapp://send?phone=5533998785878&text=Oi"
